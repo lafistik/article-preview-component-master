@@ -12,15 +12,75 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
-    Shift the overall look and feel by adding these wonderful touches to
-    furniture in your home Ever been in a room and felt like something was
-    missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple
-    tips to help you make any room feel complete. Michelle Appleton 28 Jun 2020
-    Share
+    <article class="card">
+      <div class="card__image">
+        <img src="./images/drawers.jpg" alt="drawers" srcset="" />
+      </div>
+      <div class="card__content">
+        <a href="#"
+          ><h1 class="card__content-heading">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1></a
+        >
+        <p class="card__content-body">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+        <div class="card__content-author">
+          <div class="author">
+            <div class="author-image">
+              <img
+                src="./images/avatar-michelle.jpg"
+                alt="Michelle Appleton"
+                srcset=""
+              />
+            </div>
+            <div class="author-info">
+              <a href="#"><p class="author-name">Michelle Appleton</p></a>
+              <p class="date">28 Jun 2020</p>
+            </div>
+          </div>
+          <div class="share">
+            <img src="./images/icon-share.svg" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+      <div class="overlay">
+        <p>Share</p>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img
+            class="socials"
+            src="./images/icon-facebook.svg"
+            alt="facebook icon"
+        /></a>
+        <a href="https://twitter.com/"
+          ><img
+            class="socials"
+            src="./images/icon-twitter.svg"
+            target="_blank"
+            alt="twitter icon"
+        /></a>
+        <a href="https://www.pinterest.com/"
+          ><img
+            class="socials"
+            src="./images/icon-pinterest.svg"
+            target="_blank"
+            alt="pinterest icon"
+        /></a>
+      </div>
+    </article>
 
     <script src="script.js"></script>
   </body>
