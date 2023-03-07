@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./article-preview-component-screenshot.png)
 
 ### Links
 
